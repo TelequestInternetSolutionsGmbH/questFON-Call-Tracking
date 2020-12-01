@@ -1,6 +1,7 @@
 # questFON Call-Tracking by Telequest
 
-The system merges the online statistics data with the call data.  The calls can therefore be attributed to individual users.
+The system merges the online statistics data with the call data. 
+The calls can therefore be attributed to individual users.
 
 ## How it functions
 - For each user who visits your website, an individual (slightly modified) call number is indicated.

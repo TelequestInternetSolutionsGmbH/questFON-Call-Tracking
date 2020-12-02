@@ -15,5 +15,5 @@
 homepage: "https://questfon.cloud/call-tracking/"
 documentation: "https://www.questfon.cloud/call-tracking/integration/"
 versions:
-  - sha: b12014b5707524ec9a2d8842763b974eb2b79afc
+  - sha: c3db0148f3e0aeee2ae32c19c8fc773aab2baec2
     changeNotes: initial template check in

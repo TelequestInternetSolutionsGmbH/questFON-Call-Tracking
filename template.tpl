@@ -85,9 +85,7 @@ qf('get', 'phonenumber');
 // render phonenumber into DOM
 qf('render');
 
-
-//const url = 'https://cdn.questfon.cloud/js/qfct.js?id=' + encodeUriComponent(_tid || "undefined");
-const url = 'https://calltracking.questfon.cloud/js/qfct.dev.js?id=' + encodeUriComponent(_tid || "undefined");
+const url = 'https://cdn.questfon.cloud/js/qfct.js?id=' + encodeUriComponent(_tid || "undefined");
 
 injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 

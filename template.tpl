@@ -54,6 +54,8 @@ const copyFromWindow = require('copyFromWindow');
 const createArgumentsQueue = require('createArgumentsQueue');
 const getTimestamp = require('getTimestamp');
 const injectScript = require('injectScript');
+const encodeUriComponent = require('encodeUriComponent');
+
 const _tid = data.tid;
 const _functions = data.functions;
 
@@ -84,8 +86,8 @@ qf('get', 'phonenumber');
 qf('render');
 
 
-//const url = 'https://www.gz-software.at/questFON.js?id='+ _tid;
-const url = 'https://cdn.questfon.cloud/js/qfct.js?id='+ _tid;
+//const url = 'https://cdn.questfon.cloud/js/qfct.js?id=' + encodeUriComponent(_tid || "undefined");
+const url = 'https://calltracking.questfon.cloud/js/qfct.dev.js?id=' + encodeUriComponent(_tid || "undefined");
 
 injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 

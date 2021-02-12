@@ -16,8 +16,10 @@ homepage: "https://questfon.cloud/call-tracking/"
 documentation: "https://www.questfon.cloud/call-tracking/integration/"
 versions:
   # Latest version
+  - sha: 4b3f524cde5e199ff23f870db04f15323b5d0969
+    changeNotes: new questfondomain parameter added, to provide the possibility to report events from multiple websites to one google analytics property
+  # Older versions
   - sha: 6fb07cf2a72772bc8b381edd88ecbf4eebf3fd0d
     changeNotes: prd url updated
-  # Older versions
   - sha: c3db0148f3e0aeee2ae32c19c8fc773aab2baec2
     changeNotes: initial template check in
